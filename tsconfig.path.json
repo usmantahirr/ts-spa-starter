@@ -15,10 +15,13 @@
       "@modules/*": ["./src/shared/modules/*"],
 
       "@components": ["./src/shared/components"],
+      "@components/*": ["./src/shared/components/*"],
 
       "@pages": ["./src/shared/pages"],
+      "@pages/*": ["./src/shared/pages/*"],
 
       "@templates": ["./src/shared/templates"],
+      "@templates/*": ["./src/shared/templates/*"],
 
       "@containers": ["./src/containers"],
       "@containers/*": ["./src/containers/*"],
@@ -30,7 +33,7 @@
       "@types/*": ["./src/types/*"],
 
       "@utils": ["./src/utils"],
-      "@utils/*": ["./src/utils/"]
+      "@utils/*": ["./src/utils/*"]
     }
   }
 }
