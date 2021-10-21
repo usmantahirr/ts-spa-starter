@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "paths": {
+      "@": ["./src"],
+      "@/*": ["./src/*"],
+
+      "@api": ["./src/api"],
+      "@api/*": ["./src/api/*"],
+
+      "@configs": ["./src/configs"],
+      "@configs/*": ["./src/configs/*"],
+
+      "@modules": ["./src/shared/modules"],
+      "@modules/*": ["./src/shared/modules/*"],
+
+      "@components": ["./src/shared/components"],
+
+      "@pages": ["./src/shared/pages"],
+
+      "@templates": ["./src/shared/templates"],
+
+      "@containers": ["./src/containers"],
+      "@containers/*": ["./src/containers/*"],
+
+      "@store": ["./src/store"],
+      "@store/*": ["./src/store/*"],
+
+      "@types": ["./src/types"],
+      "@types/*": ["./src/types/*"],
+
+      "@utils": ["./src/utils"],
+      "@utils/*": ["./src/utils/"]
+    }
+  }
+}
